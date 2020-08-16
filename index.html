@@ -9,36 +9,114 @@
     </head>
     <body> 
         <header>
+            <div class='header'>
             <h1> Welcome to <i>MelaSkin</i> </h1>
-            <h2><u>A skincare blog for skin of colour!</u></h2>
+            <h2 id='saying'><u>A skincare blog for skin of colour</u></h2>
             <section>
             <h2><mark>Ready, click, glow!</mark></h2>
-           <img src='skin2.png' width='700' height='300'>
+           <img src='skin33.jpg' width='345' height='300'>
+           <img src='skin4.jpg' width='300' height='300'>
+           <img src='skin5.jpg' width='300' height='300'>
+           <img src='skin6.jpg' width='300' height='300'>
            </section>
+           </div>
         </header>
         <nav>
-            <a href='#home'>Home</a>
-            <div>
-            <a href='#productrecommendations'>Product Recommendations</a>
-            </div>
+            <ul class='navbar'>
+            <li><a href='#home'>Home</a></li>
+            <li class='Ingredients'><a href='#IYNTK'>Ingredients you need to know</a>
+                <ul class='dropdown'>
+                <li><a href='#'>Kojic Acid</a></li>
+                <li><a href="#">Licorice Root</a></li>
+                <li><a href="#">Alpha Arbutin</a></li>
+                <li><a href='#'>Niacinamide</a></li>
+                <li><a href='#'>Mandelic Acid</a></li>
+               </ul>
+              </li>
+            <li><a href='#HTOYR'>How to order your routine</a></li>
+            <li><a href='#UST'>Ultimate Skin Tips</a></li>
+            <li><a href='#treatments'>Treatments</a></li>
+            <li><a href='#SAWTF'>Skinfluencers and who to follow</a></li>
+            <li><a href='#contact'>Contact</a></li>
+            </ul>
         </nav>
         <main>
-            <p>Here you will find ingredient and scientific information, product revviews, product recommendations and information on which professional treatments are best for YOU.</p>
-            <div>
-            <a href='https://askthescientists.com/skin-type-quiz/'target='_blank'>Click here to identify your skin type</a>
-            </div>
-            <p>The best ingredients for skin of colour you <strong>need</strong> to know about:</p>
-            <ul>
-                <li>Kojic Acid</li>
-                <li>Licorice Root</li>
-                <li>Alpha Arbutin</li>
-                <li>Niacinamide</li>
-                <li>Tramexamic Acid and Cetyl Tranexamate</li>
-                <li>Mandelic Acid</li>
-                <li>Azeliac Acid</li>
-            </ul>
+            <section id='intro'>
+            <p>Here you will find ingredient and scientific information, product reviews, product recommendations and information on which professional treatments are best for YOU.</p>
+            </section>
+            <section id='home'>
+            <h2>Home</h2>
+            x
+            </section>
+            <section id='IYNTK'>
+            <h2>Ingredients you need to know</h2>
+            </section>
+            <section id='HTOYR'>
+                <h2>How to order your routine</h2>
+                <table>
+                    <tr>
+                        <th>AM</th>
+                        <th>PM</th>
+                    </tr>
+                    <tr>
+                        <td>Cleanser</td>
+                        <td>Oil cleanse</td>
+                    </tr>
+                    <tr>
+                        <td>Tone</td>
+                        <td>Cleanse</td>
+                    </tr>
+                    <tr>
+                        <td>Hydrate</td>
+                        <td>Toner</td>
+                    </tr>
+                    <tr>
+                        <td>Eye cream</td>
+                        <td>Hydrate</td>
+                    </tr>
+                    <tr>
+                        <td>Serum(s)</td>
+                        <td>Exfoliate (2-3x a week)</td>
+                    </tr>
+                    <tr>
+                        <td>Moisturiser</td>
+                        <td>Hydrate</td>
+                    </tr>
+                    <tr>
+                        <td>SPF!!!</td>
+                        <td>Serum(s)</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Moisturiser</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Oil</td>
+                    </tr>
+                </table>
+            </section>
+            <section id=UST>
+                <h2>Ultimate Skin Tips</h2>
+                <h3>Knowing your skin type</h3>
+                <p>When it comes to buying products, it is really important you know your skin type: dry, oily or combination <a href='https://askthescientists.com/skin-type-quiz/'target='_blank'>Click here to identify your skin type</a></p>
+           <br>
+                <h3><strong>The 60 second rule</strong></h3>
+            <p>The very basics of good skincare? Wash your face. Properly. Here's a life changing video by Nai, a licensed Esthetician</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/a9yyZ9PysjI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section id='treatments'>
+                <h2>Treatments</h2>
+                x
+            </section>
+            <section id='SAWTF'>
+                <h2>Skinfluencers & who to follow</h2>
+                x
+            </section>
         </main>
         <footer>
+            <section id='contact'>
+                <h2>Contact</h2>
             <form action='action_page.php'>
                 <label for='name'>Name</label>
                 <input type='text' id='name' name='name' placeholder='Your name'>
@@ -52,6 +130,8 @@
                 <textarea id='message' name='message' style='width:300px; height:50px;'>Tell me about your skin, your routine and your concerns!</textarea>
                 <input type='submit' value='Submit'>   
                 <p>Site designed by Olivia</p>
+                </form>
+                </section>
         </footer>
     </body>
 </html>

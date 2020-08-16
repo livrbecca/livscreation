@@ -1,5 +1,90 @@
 body {
-  background:pink
+  background-color: khaki;
 }
-h1 { text-align: center }
-h2 { text-align: center }
+h1 { 
+  text-align: center; 
+  font-size: 30px; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: salmon;
+  color: white;
+  font-size: 300%;
+}
+h2 { 
+  text-align: center; 
+  font-size: 20px; 
+  color: saddlebrown;
+}
+#saying {
+  font-stretch: ultra-expanded;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+.header {
+  border: 2px solid rgb(139, 59, 5); 
+  border: 2mm ridge salmon
+}
+.header {
+  text-align: center;
+}
+.navbar { 
+  background-color: salmon; 
+  list-style-type: none;
+  width: max-content;
+  padding: 18px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 35px;
+  font-size: 100%;
+}
+.Ingredients {
+  position: relative;
+}
+.dropdown {
+  background-color: palegoldenrod;
+  display: none;
+  position: absolute;
+  width: 100%;
+}
+.Ingredients:hover .dropdown {
+  display: block;
+}
+.navbar > li {
+float: left;
+margin-right: 83px;
+width: 800px;
+max-width: max-content;
+font-weight: bold;
+}
+.navbar > li > a {
+  display: inline-block;
+}
+.navbar li a:hover {
+background-color: saddlebrown;
+color: white;
+}
+#home h2 {
+  font-variant: small-caps;
+}
+#IYNTK h2 {
+  font-variant: small-caps;
+}
+#HTOYR h2 {
+  font-variant: small-caps;
+}
+#UST h2 {
+  font-variant: small-caps;
+}
+#treatments h2 {
+  font-variant: small-caps;
+}
+#SAWTF h2 {
+  font-variant: small-caps;
+}
+#contact h2 {
+  font-variant: small-caps;
+}
+#intro {
+  text-align: center;
+  font-size: 110%;
+}

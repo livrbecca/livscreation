@@ -3,10 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Treatments</title>
     <link rel='stylesheet' href='style.css'>
 </head>
 <body>
-    HI treatment page
+    <header>
+        <h1>Treatments</h1>
+        <div id='minititle'>
+        <h1>Best Treatments for Skin of Colour</h1>
+        </div>
+    </header>
+    <nav>
+        <ul class='navbar'>
+        <li><a href='index.html'>Home</a></li>
+        <li class='Ingredients'><a href='IYNTK.html'>Ingredients you need to know</a>
+            <ul class='dropdown'>
+                <li><a href='IYNTK.html'>Kojic Acid</a></li>
+                <li><a href='IYNTK.html'>Licorice Root</a></li>
+                <li><a href="IYNTK.html">Alpha Arbutin</a></li>
+                <li><a href='IYNTK.html'>Niacinamide</a></li>
+                <li><a href='IYNTK.html'>Mandelic Acid</a></li>
+           </ul>
+          </li>
+        <li><a href='HTOYR.html'>How to order your routine</a></li>
+        <li><a href='UST.html'>Ultimate Skin Tips</a></li>
+        <li><a href='treatments.html'>Treatments</a></li>
+        <li><a href='SAWTF.html'>Skinfluencers and who to follow</a></li>
+        <li><a href='#contact'>Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class='toppics'>
+            <img src='skin14.jpg'width='500' height='300'> 
+            <img src='skin15.jpg' width='450' height='300'>
+            <img src='skin16.jpg' width='500' height='300'>
+        </div>
+        <div class='peels'></div>
+            <h2><u>Chemical Peels</u></h2>
+            <p>A chemical peel uses acids at stronger concentrations to treat the desired area of skin. They reduce the appearance of hyperpigmentation by removing the epidermis. Deeper versions may also penetrate the middle layer of your skin (dermis) to produce more dramatic results. Although many chemical peels are available OTC, you might consider getting a professional-grade peel at your dermatologist’s office. These are more powerful, and they yield quicker results.</p>
+            <p>Peels and resurfacer treatments are designed to exfoliate your skin and encourage it to refresh itself by creating fresh new skin cells. They also stimulate the skin’s natural collagen production to help target the appearance of fine lines and wrinkles. Skin peel treatments make use of acids and enzymes to exfoliate away layers of the skin to reveal fresher, clearer, more youthful looking skin beneath the surface. Resurfacers are a milder type of skin peel and are sometimes referred to as ‘superficial exfoliating treatments’.</p>
+            <p>Check out the video below on what the chemical peel experience is like. You can find similar videos all over youtube.</p>
+            <img src='peel1.jpg' width='500' height='300'>
+            <iframe width="500" height="300" src="https://www.youtube.com/embed/QuK7s1MZUlA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p style="color: red;"><b><u>NEVER</u> perform a chemical peel on yourself at home. Leave it to the professionals.</b></p>
+        </div>
+        <div class='MN'>
+            <h2><u>Microneedling</u></h2>
+            <p>Micro needling is a non-ablative skin treatment which means that there is no removal of the epidermis in order to facilitate the development of a new layer of skin. It is safe for all skin types and tones. The micro needling procedure is meant for improving the texture and appearance of the skin.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZyHqxlwatIg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </main>
+    <footer>
+        <section id='contact'>
+            <h2>Contact</h2>
+        <form action='action_page.php'>
+            <label for='name'>Name</label>
+            <input type='text' id='name' name='name' placeholder='Your name'>
+            <br>
+            <label for='email'>Email</label>
+            <input type='text' id='email' name='email' placeholder='Enter Email'> 
+            </br>
+            <br>
+            <label for='message'>Lets talk!</label>
+            </br>
+            <textarea id='message' name='message' style='width:300px; height:50px;'>Tell me about your skin, your routine and your concerns!</textarea>
+            <input type='submit' value='Submit'>   
+            <p>Site designed by Olivia</p>
+            </form>
+            </section>
+    </footer>
 </body>
 </html>
